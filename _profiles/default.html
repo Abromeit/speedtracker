@@ -59,18 +59,18 @@ parameters:
 #    metric: firstPaint
 #    max: 2000
 #    alerts: ["slackAlert"]
-
 budgets:
+  -
     # https://developers.google.com/speed/docs/insights/Server#recommendations
     # -> "You should reduce your server response time under 200ms."
     metric: TTFB
     max: 200
     alerts: ["emailAlert", "emailAlertWithSms"]
+  -
     # https://developers.google.com/speed/docs/insights/about#optimization-score
     # -> "Good: The page applies most performance best practices and there is 
     #     little headroom for further optimization. The page scores 80 or above."
     metric: pagespeed
     min: 80
     alerts: ["emailAlert"]
-
 ---
