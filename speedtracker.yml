@@ -66,13 +66,13 @@ wptKey: "4c00d2586068d327e3a0d4df8f2bcd246a0db9e1c562098870e202a90cc80a0e6bd8"
 #                                                                             #
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 
-alerts:
-  emailAlert:
-    type: "email"
-    recipients: ["6900d20c70328c24b9e6acd5832ac431381fabe5982a09dc"]
-  emailAlertWithSms:
-    type: "email"
-    recipients: ["694fd11c6d308428a4d28bd39467c879", "6900d20c70328c24b9e6acd5832ac431381fabe5982a09dc"]
+#alerts:
+#  emailAlert:
+#    type: "email"
+#    recipients: ["6900d20c70328c24b9e6acd5832ac431381fabe5982a09dc"]
+#  emailAlertWithSms:
+#    type: "email"
+#    recipients: ["694fd11c6d308428a4d28bd39467c879", "6900d20c70328c24b9e6acd5832ac431381fabe5982a09dc"]
 #  slackAlert:
 #    type: "slack"
 #    hookUrl: "ENCRYPTED_SLACK_HOOK_URL"
